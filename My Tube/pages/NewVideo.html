@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My Tube</title>
+    <link rel="stylesheet" href="../main.css">
+  </head>
+
+  <body class="New-video">
+
+    <h2 class="nav-top">
+    <nav>
+     <li><a href="../index.html">Home</a></li>
+     <li><a href="./CollectionOne.html">Collection 1</a></li>
+     <li><a href="./CollectionTwo.html">Collection 2</a></li>
+     <li><a href="./CollectionThree.html">Collection 3</a></li>
+     <li><a href="./NewVideo.html">New Video</a></li>
+    </nav>
+  </h2>
+
+   <h1>Add New Video</h1>
+   
+   <h2>
+    <div class="type">
+    <form action="/upload_page.php" Target="_self" method="post">
+     <label for="Videoname">Video Title</label><br>
+     <input id="Videoname" name="Videoname" type="text" placeholder="Video title" ><br>
+     <br>
+     <label for="Description">Description</label><br>
+      <textarea rows="4" cols="30"></textarea><br>
+     <br>
+    </div>
+
+    <div class="video-class">
+     <label for="seen">Video</label><br>
+     <input type="file"><br>
+     <br>
+    </div>
+     
+     <div class="pick">
+     <input id="public" name="seen" type="radio">
+     <label for="public">Public</label>
+      
+     <input id="private" name="seen" type="radio">
+     <label for="private">Private</label><br>
+     <br>
+     <br>
+     </div>
+     <button>Upload Video</button>
+
+   
+    </form>
+   </h2>
+   <hr>
+   <footer>
+    <a href="../Form.html">Copyright</a>
+   </footer>
+  </body>
+</html>

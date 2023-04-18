@@ -1,0 +1,150 @@
+.Main, .New-video, .filler{
+background-color: #363636;
+}
+
+.Main h1, .Main h2, .New-video h1, .New-video h2, .filler h2, .filler h1{
+  color: whitesmoke;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+.Collection-1{
+  background-image: url(https://images7.alphacoders.com/737/737400.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.Collection-1 h1, .Collection-1 h2, .v1 h1, .v1 p{
+  color: azure;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+.Collection-2{
+  background-image:url(https://images5.alphacoders.com/315/315848.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.Collection-2 h1, .Collection-2 h2, .v2 h1, .v2 p{
+  color: rgb(226, 147, 43);
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+.Collection-3{
+  background-image: url(https://images3.alphacoders.com/202/202559.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.Collection-3 h1, .Collection-3 h2, .v3 h1, .v3 p{
+  color:azure;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+a:link{
+  text-decoration: none;
+}
+.nav-top{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.nav-top li{
+  display: inline;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+	font-size: 20px;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+.type input, textarea{
+  background: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width:450px;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+.video-class input{
+  background: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  color:black;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+button{
+  background: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  width:450px;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+.com-1{
+  float: left;
+  padding: 0px 10px;
+  position: relative;
+  height: auto;
+	vertical-align: middle;
+}
+
+.com-2{
+  float: left;
+  padding: 0px 10px;
+  position: relative;
+  height: auto;
+	vertical-align: middle;
+}
+
+.com-3{
+  float: left;
+  padding: 0px 10px;
+  position: relative;
+  height: auto;
+	vertical-align: middle;
+}
+
+.v1{
+  background-image: url(https://images7.alphacoders.com/737/737400.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.v2{
+  background-image:url(https://images5.alphacoders.com/315/315848.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.v3{
+  background-image: url(https://images3.alphacoders.com/202/202559.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.vid{
+  horizontal-align: middle;
+  text-align: center;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
+footer{
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: 'Open Sans', Sans-Serif;
+}
